@@ -16,7 +16,7 @@ sumButton.addEventListener('click', function (e) {
         }, 5000)
     } else if (!Number(billStatus.value) || !Number(selectStatus.value) || !Number(peopleStatus.value)) {
         alert.style.display = 'block';
-        alert.textContent = 'Both fields must be numbers';
+        alert.textContent = 'All fields must be numbers';
         setTimeout(function () {
             alert.style.display = 'none';
         }, 5000)

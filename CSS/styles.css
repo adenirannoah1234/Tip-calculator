@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Space Mono', monospace;
 }
+html,body{
+    overflow-x: hidden;
+}
 body{
     background-color: hsl(185, 41%, 84%);
 }
@@ -18,10 +21,10 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    width: 900px;
+     width: 900px;
     padding: 30px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+     margin-top: 50px;
+    /* margin-bottom: 50px; */
     /* height: 500px; */
     border-radius: 10px;
 }
@@ -92,51 +95,44 @@ label{
     .mainleft{
         display: flex;
         flex-direction: column;
-        padding: 0;
+        justify-content: space-between;
+        align-items: center;
         width: 32rem;
     }
-    html,body{
+    /* html,body{
         overflow-x: hidden;
-    }
+    } */
     .calculationbox{
-        margin-left: 0;
         margin-top: 40px;
         width: 500px;
     }
     .another{
-        width: 300px;
+        
+        margin-right: 50px; 
     }
     button{
     padding: 1px 0;
     }
 }
 @media screen and (max-width: 480px){
-    .mainleft{
-        width: 30rem;
-        margin: 0;
-        align-items: center;
-        padding: 0;
-    }
-    .calculationbox{
-        width: 25rem;
-        margin-left: 0;
-    }
+.another{
+    width: 300px;
+    margin-right: 80px;
 }
-@media screen and (max-width: 375px){
-    .mainleft{
-        width: 25rem;
-        padding: 0;
-    }
-    .calculationbox{
-        width: 18rem;
-        margin-left: 0;
-
-    }
-    .amount{
-        gap: 4rem;
-    }
+.calculationbox{
+    width: 400px;
+    margin-right: 35px;
+} 
+}
+@media screen and (max-width: 376px){
     .another{
-        width: 200px;
+        width: 250px;
+        margin-right: 184px;
     }
+    .calculationbox{
+        width: 80%;
+        margin-right: 139px;
+    } 
+    
 }
-
+    
