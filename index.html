@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <div class="main">
+        
+        <div class="mainleft">
+            
+            <div class="another">
+                <p class="alert alert-danger"></p>
+                <div class="select">
+                    <label for="bill">Bill</label>
+                    <input type="text" class="bill" id="bill" placeholder="$ 0" fdprocessedid="tuo96m">
+                </div>
+                <div class="select">
+                    <label for="selectTip">Select Tip %</label>
+                    <input type="text" class="selectTip" id="selecting" placeholder="%" fdprocessedid="6aycpq">
+                </div>
+                <div class="select">
+                    <label for="People">Number Of People</label>
+                    <input type="text" class="People" id="People" placeholder="0" fdprocessedid="te4asi">
+                </div>
+            </div>
+            <div class="calculationbox">
+                <div class="amount">
+                    <div class="text">
+                        <h2>Tip Amount</h2>
+                        <h3>/ person</h3>
+                    </div>
+                    <h1>$ <span class="tipAnswer">0.0</span></h1>
+                </div>
+                <div class="amount">
+                    <div class="text">
+                        <h2>Total</h2>
+                        <h3>/ person</h3>
+                    </div>
+                    <h1>$ <span class="totalAnswer">0.00</span></h1>
+                </div>
+                <div class="buttons">
+                    <button class="calculate">SUM</button>
+                    <button class="resetbutton">RESET</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="/js/index.js"></script>
+</body>
+</html>
