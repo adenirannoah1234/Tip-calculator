@@ -38,6 +38,7 @@ sumButton.addEventListener('click', function (e) {
 
         document.querySelector('.totalAnswer').textContent = billAmountPerPerson + totalTipAmountPerPerson;
 
+
         
     }
 
@@ -50,18 +51,9 @@ clearButton.addEventListener('click', function (e) {
     billStatus.value = '';
     selectStatus.value = '';
     peopleStatus.value = '';
-    
 })
 
 
 
 
-// number of person = 2
-// bill amount = $200
-// tip percentage = 10 %
-
-//     10 % * 200 = 20
-// 20 / 2 = 10
-
-// 200 / 2 = 100
 
