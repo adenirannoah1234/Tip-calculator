@@ -115,7 +115,7 @@ label{
 }
 @media screen and (max-width: 375px){
     .calculationbox{
-        width: 90%;
+        width: 100%;
     }
     .another{
         width: 80%;
