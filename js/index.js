@@ -28,15 +28,15 @@ sumButton.addEventListener('click', function (e) {
 
         const totalTipAmountPerPerson = totalTipAmount / peopleStatus.value;
 
-        document.querySelector('.tipAnswer').textContent = totalTipAmountPerPerson;
+        document.querySelector('.tipAnswer').textContent = totalTipAmountPerPerson.toFixed(2);
 
         console.log(totalTipAmountPerPerson);
 
-        const billAmountPerPerson = billStatus.value / peopleStatus.value
+        const billAmountPerPerson = billStatus.value / peopleStatus.value;
 
         console.log(billAmountPerPerson);
 
-        document.querySelector('.totalAnswer').textContent = billAmountPerPerson + totalTipAmountPerPerson;
+        document.querySelector('.totalAnswer').textContent = (billAmountPerPerson + totalTipAmountPerPerson).toFixed(2);
 
 
         
