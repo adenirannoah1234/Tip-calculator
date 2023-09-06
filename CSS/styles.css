@@ -101,6 +101,7 @@ label{
         flex-direction: column;
         justify-content: space-between;
         padding: 0;
+        margin-bottom: 50px;
     }
     .calculationbox{
         width: 80%;
@@ -119,5 +120,8 @@ label{
     }
     .another{
         width: 80%;
+    }
+    .mainleft{
+        /* margin-bottom: 30px; */
     }
 }
